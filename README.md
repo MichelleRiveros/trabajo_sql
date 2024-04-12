@@ -2,10 +2,9 @@
 
 #### DE ASIGNACION
 
-- += 
+- Lista el nombre de todos los productos que hay en la tabla producto.
 
-  ```javascript
-  let miNumero = 10;
-  miNumero += 5;
-  console.log(miNumero); //imprime 15
+  ```sql
+  SELECT  p.nombre
+  FROM producto as p;
   ```
